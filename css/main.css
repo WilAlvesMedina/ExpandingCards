@@ -21,7 +21,7 @@ body {
   display: flex;
   width: 100%;
   height: 100vh;
-  padding: 1.6rem;
+  padding: 0.8rem;
   gap: 0.8rem;
 }
 
@@ -51,4 +51,10 @@ body {
 .ativo h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding: 6.4rem;
+  }
 }/*# sourceMappingURL=main.css.map */
